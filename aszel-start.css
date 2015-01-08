@@ -1,0 +1,142 @@
+a:link { text-decoration:none; font-weight:bold; color:#000000; }
+a:hover { text-decoration:none; font-weight:bold; background-color:#FFFF00 }
+a:visited { text-decoration:none; font-weight:bold; color:#000000 }
+a:active { text-decoration:none; font-weight:bold; background-color:#FFFF00 }
+body {
+	background-color: #CCCCCC;
+	font: normal 12px Arial, sans-serif;
+}
+
+.navigation {
+	position: absolute;
+	top: 181px;
+	left: 10px;
+	width: 15em;
+	text-align: right;
+	font-weight: bold;
+	list-style-type: none;
+	border-right:thick solid #FFFF00;
+}
+.navigation2 {
+	position: absolute;
+	font-weight: bold;
+	left: 935px;
+	top: 181px;
+	width: 15em;
+	text-align: left;
+	list-style-type: none;
+	border-left: thick solid #FFFF00;
+}
+div#willkommen {
+	background:#666666;
+	padding: 5px;
+	width: 25em;
+}
+#meldung {
+	background:#00FF00;
+	padding: 5px;
+	width: 25em;
+}
+
+
+
+/***********Fenster********************/
+.fenster2 {
+	visibility: visible;
+	left: 251px;
+	top: 181px;
+	position: absolute;
+	background-color: #000000;
+	width: 627px;
+	height: 342px;
+	text-align: center;
+}
+.fenster {
+	position: absolute;
+	left: 253px;
+	top: 179px;
+	width: 617px;
+	height: 323px;
+	overflow: auto;
+	text-align: left;
+	padding: 5px;
+}
+
+
+/*******algemeine Sachen für bestimmte Tag-Arten*******/
+
+
+h5 {
+	font-size: 15px;
+	font-weight: bold;
+	margin:0;
+	padding:0;
+}
+h4 {
+	font-style:italic;
+	font-size: 22px;
+	text-align: center;
+	padding: 0px;
+	margin:50px 0 0 0;
+	font-weight: bold;
+}
+ul {
+	list-style-image: none;
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+
+
+/********Klassen für Grafiken********/
+
+.überschrift_wassogeht {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-variant: small-caps;
+	text-decoration: underline;
+	padding:0;
+	margin-top: 10px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	
+}
+
+.ueberschrift {
+	position: relative;
+}
+.gelb {
+	background-color: #FFFF00;
+}
+.grafik-rahmen {
+	position: absolute;
+	left: 157px;
+	top: 24px;
+	width: 818px;
+	height: 527px;
+}
+
+.grafik-mehl {
+	position: absolute;
+	visibility: visible;
+	left: 259px;
+	top: 87px;
+	height: 89px;
+}
+grafik-ash {
+margin: 20px;
+}
+.grafik-ich {
+	border: thin solid #000000;
+	float: right;
+}
+.grafiken-freunde {
+	float:right;
+	margin-left: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#grafik_rechtsamrand {
+	float:right;
+}
